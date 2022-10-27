@@ -12,7 +12,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='astra-sm'
-MY_URL='https://raw.githubusercontent.com/emilnabil/channel-hazem-wahba/main'
+MY_URL='https://raw.githubusercontent.com/emilnabil/channel-mohamed-goda/main'
 
 ########################
 VERSION=$(wget $MY_URL/version -qO- | cut -d "=" -f2-)
@@ -171,6 +171,7 @@ else
 fi
 
 exit 0
+
 
 
 
